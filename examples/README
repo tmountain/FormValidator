@@ -1,0 +1,10 @@
+This directory contains some example usage of the FormValidator class.
+
+Files and Directories
+o extend.rb   -> example of how to add a custom filter
+o file.rb     -> demonstrates loading a profile from a file
+o profiles    -> directory of stored profiles
+o simple.rb   -> demonstrates basic functionality
+o standard.rb -> demonstrates some of the extended features
+
+The 
