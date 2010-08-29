@@ -37,7 +37,7 @@ For all allowable profile methods, please see FormValidator::InputProfile.
 
 == Install
 
-$ gem install formvalidator
+    $ gem install formvalidator
 
 == Usage
 
