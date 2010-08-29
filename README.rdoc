@@ -35,6 +35,10 @@ the Usage section below, and you'll get the idea.
 
 For all allowable profile methods, please see FormValidator::InputProfile.
 
+== Install
+
+$ gem install formvalidator
+
 == Usage
 
 The simplest and most common usage is to specify the profile in a hash
