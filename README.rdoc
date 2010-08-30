@@ -5,9 +5,9 @@ Data::FormValidator module. When you are coding a web application one of the
 most tedious though crucial tasks is to validate user's input (usually
 submitted by way of an HTML form). You have to check that each required field
 is present and that all fields have valid data. (Does the phone input looks
-like a phone number? Is that a plausible email address? Is the YY state valid?
-etc.) For a simple form, this is not really a problem but as forms get more
-complex and you code more of them this task becames really boring and tedious.
+like a phone number? Is this a plausible email address?  For a simple form,
+this is not really a problem but as forms get more complex and you code more of
+them this task becames really boring and tedious.
 
 FormValidator lets you define profiles which declare the required fields and
 their format. When you are ready to validate the user's input, you tell
@@ -16,8 +16,12 @@ the valid, missing, invalid, and unknown fields. Instance variables are filled
 with the results of the validation run so you know which fields failed what
 tests.
 
-You are then free to use this information to build a nice display to the user
-telling which fields had problems.
+For the past seven years, FormValidator has been tested heavily in the real
+world. It has been used alongside the Sinatra web framework for form validation
+purposes and outside of the web domain to validate environmental instrument
+data. It has also been used for data validation in a MUD framework. The
+conclusion from these real world tests is that it works well for a variety of
+validation requirements and should be free of any critical issues.
 
 == Input Profile Specification
 
